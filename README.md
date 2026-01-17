@@ -1,3 +1,3 @@
-# homebrew-gws
+# homebrew-gwst
 
-Homebrew tap for gws.
+Homebrew tap for gwst.

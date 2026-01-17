@@ -8,20 +8,20 @@ class Gwst < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/tasuku43/gwst/releases/download/v0.1.0/gwst_v0.1.0_macos_arm64.tar.gz"
-      sha256 "6d15efe60cb7fd65f3bd9bcadab9731aea6a8344e61cbbe10796db606f4b9c55"
+      sha256 "17655ffe1060485ca7c8f70b7272ffcbc2a2bd8c519c3966f9c17700dacad434"
     else
       url "https://github.com/tasuku43/gwst/releases/download/v0.1.0/gwst_v0.1.0_macos_x64.tar.gz"
-      sha256 "ea51ec72ea576e9817b7899f8bf713ef098fada799f17179fabcfa32736e6f25"
+      sha256 "4340ed70bf2bceaa69cc0e8df30206b48b854c453077576b7506b5aab9e65b9c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/tasuku43/gwst/releases/download/v0.1.0/gwst_v0.1.0_linux_arm64.tar.gz"
-      sha256 "82c0044feb3e7abe93c257b5617748b56ddca1d2acd44685e380a2e0233bfde9"
+      sha256 "54f5b2f0034364699239ffd844a74e4cc14c19c32f67067c0d0b1bf7772ed4d5"
     else
       url "https://github.com/tasuku43/gwst/releases/download/v0.1.0/gwst_v0.1.0_linux_x64.tar.gz"
-      sha256 "35aaa42f8e445e5fbfb2599ec742cfb6428d5b3bacd39be266370d372dc22435"
+      sha256 "fb1320dc749713e80311163ead5f54acb2bd6598a73758e2cff7bd4bfbfa65bb"
     end
   end
 

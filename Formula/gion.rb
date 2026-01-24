@@ -26,10 +26,11 @@ class Gion < Formula
   end
 
   def install
-    bin.install "gion"
+    bin.install "gion", "giongo"
   end
 
   test do
     system "#{bin}/gion", "--version"
+    system "#{bin}/giongo", "--version"
   end
 end

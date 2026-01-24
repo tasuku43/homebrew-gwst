@@ -1,3 +1,3 @@
-# homebrew-gwst
+# homebrew-gion
 
-Homebrew tap for gwst.
+Homebrew tap for gion.

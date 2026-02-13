@@ -3,25 +3,25 @@ class Gion < Formula
   homepage "https://github.com/tasuku43/gion"
   license "MIT"
 
-  version "0.2.8"
+  version "0.2.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/gion/releases/download/v0.2.8/gion_v0.2.8_macos_arm64.tar.gz"
-      sha256 "122da5afa7d55176e9a0c09c41b413ba1b00585a5485e0b1be4da95c07fc665f"
+      url "https://github.com/tasuku43/gion/releases/download/v0.2.9/gion_v0.2.9_macos_arm64.tar.gz"
+      sha256 "94c2e69241a62691a2b02fe35112d23e20c2d80cf1c7afb810dcdf19f8bde34e"
     else
-      url "https://github.com/tasuku43/gion/releases/download/v0.2.8/gion_v0.2.8_macos_x64.tar.gz"
-      sha256 "975ed9c368346b6b1fbcfb70aec778cca8a760e31f986685b79fccd4bde3eec3"
+      url "https://github.com/tasuku43/gion/releases/download/v0.2.9/gion_v0.2.9_macos_x64.tar.gz"
+      sha256 "f49fd6d1a5cfda2b5105648c62ec121a4752e57477ff5136a1121923f1372065"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/gion/releases/download/v0.2.8/gion_v0.2.8_linux_arm64.tar.gz"
-      sha256 "af5ebb2efbfee8cbb86d644fb6351683525164e0f5a402e0336aa5aea37283c9"
+      url "https://github.com/tasuku43/gion/releases/download/v0.2.9/gion_v0.2.9_linux_arm64.tar.gz"
+      sha256 "4632e8468f7bcd0ceaaf1d8bd85a6920c2e4cf6be8867c066368f38ee5ee8318"
     else
-      url "https://github.com/tasuku43/gion/releases/download/v0.2.8/gion_v0.2.8_linux_x64.tar.gz"
-      sha256 "697240777595cb737fa7e4a9a4adc5806ea8824eb2695877e28d449c0187d71b"
+      url "https://github.com/tasuku43/gion/releases/download/v0.2.9/gion_v0.2.9_linux_x64.tar.gz"
+      sha256 "bf20c20a0f637ef53464f5429243e15f2b62a6e96ec64a4e1deca92a87566e61"
     end
   end
 
